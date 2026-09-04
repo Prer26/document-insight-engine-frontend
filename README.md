@@ -51,51 +51,34 @@ Navigate to Highlighted Text
 
 ### 1. PDF Upload & Document Viewer
 
-> Screenshot will be added here.
+<img width="1917" height="882" alt="image" src="https://github.com/user-attachments/assets/32039896-e290-4167-910a-03ae68049697" />
 
-```text
-docs/screenshots/01-upload.png
-```
 
 ---
 
 ### 2. Question & Answer
 
-> Screenshot will be added here.
-
-```text
-docs/screenshots/02-question-answer.png
-```
+<img width="752" height="623" alt="image" src="https://github.com/user-attachments/assets/12fe2b25-bfa0-4487-84b9-ad7a3cebd9ee" />
 
 ---
 
-### 3. Supporting Source Highlight
+### 3. Highlight
+<img width="1718" height="375" alt="image" src="https://github.com/user-attachments/assets/db93d68b-7f34-4a0d-907b-2686fd720630" />
 
-> Screenshot will be added here.
-
-```text
-docs/screenshots/03-highlight.png
-```
 
 ---
 
 ### 4. Citation Navigation
 
-> Screenshot will be added here.
+<img width="1905" height="870" alt="image" src="https://github.com/user-attachments/assets/d68111aa-05d5-4714-9209-c389ce01af96" />
 
-```text
-docs/screenshots/04-citation-navigation.png
-```
 
 ---
 
 ### 5. Unsupported Question Handling
 
-> Screenshot will be added here.
+<img width="800" height="207" alt="image" src="https://github.com/user-attachments/assets/15aa4521-9f4a-4bee-88b5-011d307a9109" />
 
-```text
-docs/screenshots/05-no-answer.png
-```
 
 ---
 
@@ -118,24 +101,24 @@ This makes the answer easier to verify against the original document.
 
 ---
 
-# ✨ Key Features
+# Key Features
 
-* 📄 PDF upload
-* 📖 Browser-based PDF viewing
-* 🔎 Semantic + keyword retrieval
-* 🧠 Grounded LLM question answering
-* 📍 Word-level text positioning
-* 🖍️ Direct PDF text highlighting
-* 🔗 Citation-to-highlight navigation
-* 📚 Multiple supporting passages
-* ❌ Unsupported-question detection
-* 🛡️ PDF validation and error handling
-* 📏 Support for 50+ page documents
-* 🚀 Deployed frontend and backend
+* PDF upload
+* Browser-based PDF viewing
+* Semantic + keyword retrieval
+* Grounded LLM question answering
+* Word-level text positioning
+* Direct PDF text highlighting
+* Citation-to-highlight navigation
+* Multiple supporting passages
+* Unsupported-question detection
+* PDF validation and error handling
+* Support for 50+ page documents
+* Deployed frontend and backend
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```text
                        ┌──────────────────────┐
@@ -179,7 +162,7 @@ This makes the answer easier to verify against the original document.
 
 ---
 
-# 🔄 How It Works
+# How It Works
 
 ## 1. Upload PDF
 
@@ -302,7 +285,7 @@ This keeps the generated response grounded in the uploaded document.
 
 ---
 
-# 🖍️ Highlighting System
+# Highlighting System
 
 One of the main requirements of this project is that supporting text must be highlighted directly on the PDF.
 
@@ -354,7 +337,7 @@ This allows the user to independently verify the answer.
 
 ---
 
-# ❌ Unsupported Questions
+# Unsupported Questions
 
 The system is designed to avoid hallucinating answers.
 
@@ -373,7 +356,7 @@ The document does not contain enough information to answer this question.
 
 ---
 
-# 🛡️ Error Handling
+# Error Handling
 
 The application handles:
 
@@ -401,7 +384,7 @@ The goal is to prevent malformed documents from causing the application to crash
 
 ---
 
-# 📊 Evaluation
+# Evaluation
 
 The application was evaluated using **10 questions across two PDF documents**.
 
@@ -422,7 +405,7 @@ All 10 evaluated questions retrieved the relevant supporting passage and correct
 
 ---
 
-# 🧪 Evaluation Questions
+# Evaluation Questions
 
 ## Document 1
 
@@ -450,7 +433,7 @@ Highlight Accuracy
 
 ---
 
-# 🧩 Challenges & Solutions
+# Challenges & Solutions
 
 ## Deployment Memory
 
@@ -500,7 +483,7 @@ The LLM is instructed to remain grounded in retrieved sources, while the backend
 
 ---
 
-# ⚠️ Limitations
+# Limitations
 
 The coordinate-based highlighting approach works best for PDFs with a normal selectable text layer.
 
@@ -519,7 +502,7 @@ Scanned PDFs without a readable text layer are rejected rather than producing un
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 * True token-level streaming using Server-Sent Events
 * OCR support for scanned PDFs
@@ -534,7 +517,7 @@ Scanned PDFs without a readable text layer are rejected rather than producing un
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 Document Insight Engine/
@@ -562,7 +545,7 @@ Document Insight Engine/
 
 ---
 
-# ⚙️ Running Locally
+# Running Locally
 
 ## Backend
 
@@ -609,7 +592,7 @@ Open the local URL provided by Vite.
 
 ---
 
-# 🌐 Deployment
+# Deployment
 
 | Component      | Platform |
 | -------------- | -------- |
@@ -651,7 +634,7 @@ The report includes:
 
 ---
 
-# 🔐 Security Note
+# Security Note
 
 API keys and other secrets should be stored in environment variables and must not be committed to the repository.
 
@@ -663,7 +646,7 @@ GROQ_API_KEY=your_groq_api_key
 
 ---
 
-# 👨‍💻 Project
+# Project
 
 **Document Insight Engine**
 
