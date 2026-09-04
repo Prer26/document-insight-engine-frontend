@@ -10,7 +10,7 @@ A full-stack PDF Question Answering application that allows users to upload docu
 
 ### Video 
 
-**[Open Document Insight Engine](https://document-insight-engine-frontend.vercel.app/app)**
+**https://drive.google.com/file/d/1atBKi-HOSEhgYJMzO89enmgQX2FlPhR6/view?usp=sharing**
 
 ### Backend API
 
